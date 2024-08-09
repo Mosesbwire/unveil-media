@@ -1,40 +1,53 @@
 .btn {
     font-size: 1em;
     border-radius: 1.625em;
-    padding: .75em 1em;
+    padding: .75em 1.25em;
     font-family: var(--font-family);
-    border-color: transparent;
+    border: 3px solid transparent;
     position: relative;
     outline: none;
-    /* height: 52px; */
-    display: flex; 
-    width: fit-content;
+    height: 52px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
     
 }
-
-.btn >:first-child {
-    border: 2px solid salmon;
-}
-
-.btn-ic {
+.btn::before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 1.5em;
+    content: "\f105";
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: var(--accent-navy-blue_light-50);
+    position: absolute;
+    top: 2px;
+    right:3px;
     display: grid;
     justify-content: center;
     align-items: center;
-    /* position: relative; */
-    height: 44px;
-    width: 44px;
-    border-radius: 50%;
-    border: 1px solid red;
-    background-color: var(--accent-navy-blue_light-50);
-}
-.btn-primary-cta {
+    color: #000;
 
 }
-
-.btn-secondary-cta {
-
+.btn::after {
+    content: '';
+    width: 52px;
+    height: 52px;    
 }
 
-.btn-outline {
 
+.primary {
+    background-color: var(--accent-navy-blue_light);
+    color: #FFF;
+}
+
+.secondary  {
+    background-color: var(--primary-dark);
+    color: #FFF;
+}
+
+.outline {
+    border-color: var(--secondary-100);
+    background-color: transparent;
 }
