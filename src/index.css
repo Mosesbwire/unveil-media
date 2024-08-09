@@ -43,7 +43,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .container {
-  width: 70%;
+  width: 94%;
   margin: 0 auto;
 }
 
@@ -67,6 +67,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .text {
   font-family: var(--font-family);
+  line-height: 2;
 }
 .text-md {
  

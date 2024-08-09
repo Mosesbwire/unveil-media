@@ -1,7 +1,8 @@
 .header {
     position: relative;
     overflow-x: hidden;
-    height: 100vh;
+    overflow-y: visible;
+    /* height: 100vh; */
 }
 .header-wrapper {
 
@@ -27,6 +28,7 @@
     transition: left 500ms ease;
     background-color: #FFF;
     box-shadow: -1px 1px 20px rgba(0, 0, 0, 0.2);
+    height: 100vh;
 }
 
 .menu-bar {
@@ -64,6 +66,7 @@
         position: relative;
         left: 0;
         box-shadow: none;
+        height: fit-content;
     }
 }
 

@@ -1,0 +1,30 @@
+.hero {
+
+}
+
+.headline > :first-child span {
+    color: var(--secondary-200);
+}
+.headline > :nth-child(2) > span {
+    color: var(--accent-navy-blue_light)
+}
+.headline > :last-child span {
+    color: var(--accent-pink);
+}
+
+.headline {
+    margin-bottom: 1.5em;
+}
+
+.subheadline {
+    margin-bottom: 4.5em;
+}
+.subheadline p span {
+    font-weight: 600;
+    font-size: 18px !important;
+    color: var(--accent-pink);
+}
+
+.hero-img {
+    display: none;
+}
