@@ -8,6 +8,7 @@
 }
 * {
   margin: 0;
+  padding: 0;
 }
 body {
   line-height: 1.5;
@@ -32,6 +33,7 @@ p, h1, h2, h3, h4, h5, h6 {
   --secondary-100: #DBAC2A;
   --secondary-200: #F7BB18;
   --accent-navy-blue_light: #6B69E5;
+  --accent-navy-blue_light-50: #C9C8FF;
   --accent-pink: #E550A7;
   --accent-violet: #8F38C1;
   --tertiary-100: #EFFBFF;
@@ -41,7 +43,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .container {
-  width: 94%;
+  width: 70%;
   margin: 0 auto;
 }
 

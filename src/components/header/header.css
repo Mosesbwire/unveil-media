@@ -1,0 +1,40 @@
+.header {
+    position: relative;
+    overflow-x: hidden;
+    height: 100vh;
+}
+.header-wrapper {
+
+    padding-top: 1em;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.logo-img {
+    width: 40%;
+}
+.navigation {
+    display: flex;
+}  
+
+.navigation >:last-child {
+    position: absolute;
+    top: 0;
+    z-index: 5;
+    left: calc( 100%);
+    width: calc(100%);
+    transition: left 500ms ease;
+    background-color: #FFF;
+    box-shadow: -1px 1px 20px rgba(0, 0, 0, 0.2);
+}
+
+.menu-bar {
+    width: 100%;
+}
+.menu-bar > :first-child {
+    margin-right: 1em;
+    float: right;
+    font-size: 1.5em;
+}
+
