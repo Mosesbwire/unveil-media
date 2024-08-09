@@ -64,6 +64,7 @@
         left: 0;
         box-shadow: none;
         height: fit-content;
+        background-color: transparent;
     }
 }
 

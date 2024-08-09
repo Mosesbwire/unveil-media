@@ -17,9 +17,11 @@ const Hero = () => {
             <div className="subheadline">
                 <p className='text text-md'>From billboards to street poles, branding to point of sale advertising to signage, <span>we make your business stand out</span> thanks to a winning combination: State of the art printers, great graphic designers, and great work people.</p>
             </div>
-            <Button btnType='primary'>
-                Explore our services
-            </Button>
+            <div className='hero-cta'>
+                <Button btnType='primary'>
+                    Explore our services
+                </Button>
+            </div>
         </div>
         <div className='hero-img'>
             <img src={hero_img} alt="services offered represented as planets" />

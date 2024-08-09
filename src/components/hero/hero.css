@@ -1,6 +1,3 @@
-.hero {
-
-}
 
 .headline > :first-child span {
     color: var(--secondary-200);
@@ -27,4 +24,56 @@
 
 .hero-img {
     display: none;
+}
+
+.hero-cta {
+    display: grid;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 61.25em) {
+    .hero {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+       
+    }
+    
+    .hero-cta {
+        justify-content: left;
+    }
+
+    .headline {
+        margin-bottom: .5em;
+    }
+    .subheadline {
+        max-width: 500px;
+        margin-bottom: 2.5em;
+    }
+    
+    .hero-img {
+        display: block;
+        /* border: 2px solid red; */
+    
+    }
+    .hero-img img {
+        /* border: 2px solid green; */
+        position: absolute;
+        top: -20%;
+        left: 45%;
+        height: calc(150%);
+        width: calc(150%);
+        transform-origin: center;
+        animation: rotate 200s linear infinite;
+
+    }
+
+    @keyframes rotate {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
 }
