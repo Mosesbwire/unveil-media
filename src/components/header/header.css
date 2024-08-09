@@ -1,8 +1,5 @@
 .header {
-    position: relative;
-    overflow-x: hidden;
-    overflow-y: visible;
-    /* height: 100vh; */
+    overflow: hidden;
 }
 .header-wrapper {
 

@@ -31,6 +31,9 @@ const Navigation = ({children, toggleMenuHandler, ...rest}:navProps) => {
             <img src={ic_phone} alt="phone icon represents contacts"/>
                 <p className='text text-md'>Contacts</p>
             </div>
+            <div className="nav-link">
+                <Button btnType='outline'>Quote generator</Button>
+            </div>
             <div className='close-btn' onClick={toggleMenuHandler}>
                 <img src={ic_close} alt="x -mark represent close btn"/>
             </div>
