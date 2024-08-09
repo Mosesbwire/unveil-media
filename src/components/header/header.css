@@ -38,3 +38,32 @@
     font-size: 1.5em;
 }
 
+@media only screen and (min-width: 61.25em) {
+    .header {
+        height: fit-content;
+    }
+
+    .header-wrapper {
+        grid-template-columns: 1fr 2fr;
+        padding-bottom: 1em;
+        padding-top: 2em;
+        
+    }
+    .menu-bar {
+        display: none;
+    }
+
+    .logo-img {
+        width: 30%;
+        cursor: pointer;
+    }
+    .navigation {
+       
+    }
+    .navigation > :last-child {
+        position: relative;
+        left: 0;
+        box-shadow: none;
+    }
+}
+

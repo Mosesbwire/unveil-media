@@ -19,3 +19,25 @@
     left: 85%;
     padding-block: 1em;
 }
+
+@media only screen and (min-width: 61.25em) {
+    .nav-links {
+        display: flex;
+        justify-content: space-evenly;
+        height: fit-content;
+        width: 100%;
+        padding-block: 0;
+    }
+    .nav-link {
+        padding-block: 0;
+        margin-bottom: 0;
+        cursor: pointer;
+    }
+    .nav-link > img {
+        display: none;
+    }
+
+    .close-btn {
+        display: none;
+    }
+}
