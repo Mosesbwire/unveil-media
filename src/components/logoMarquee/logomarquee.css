@@ -1,0 +1,13 @@
+.marquee {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    row-gap: 4em;
+}
+
+@media only screen and (min-width: 61.25em) {
+    .marquee {
+       
+        display: flex;
+    }
+}

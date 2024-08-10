@@ -1,15 +1,16 @@
-.client-logo {
-    width: 9.375em;
-    height: 9.375em;
+.client_logo {
     display: grid;
     justify-content: center;
     align-items: center;
 }
 
+.client_logo img {
+    width: 70%;
+}
+
 
 @media only screen and (min-width: 61.25em) {
-    .client-logo {
-        width: 12.5em;
-        height: 12.5em;
-    }
+    .client_logo img {
+        width: 80%;
+    } 
 }

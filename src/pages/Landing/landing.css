@@ -5,6 +5,10 @@
     border-bottom-right-radius: 70px;
 }
 
+.logo-marquee-section {
+    padding: 4em 0;
+}
+
 
 @media only screen and (min-width: 61.25em) {
     .hero-section {
@@ -14,5 +18,10 @@
         padding-bottom: 3em;
         position: relative;
         overflow: hidden;
+    }
+
+    .logo-marquee-section {
+        padding: 2em 0;
+        
     }
 }
