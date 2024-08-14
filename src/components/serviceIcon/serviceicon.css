@@ -1,0 +1,22 @@
+.service-icon-card {
+    border: 0.25px solid #cfcfcf;
+    border-radius: 6px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-block: 1em;
+    background-color: #FFF;
+    box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.2);
+}
+.service-icon-card img {
+    justify-self: center;
+}
+
+@media only screen and (min-width: 61.25em){
+    .service-icon-card {
+       min-height: 100px;
+       min-width: 100px;
+       max-width: 100px;
+       max-height: 100px;
+    }
+}

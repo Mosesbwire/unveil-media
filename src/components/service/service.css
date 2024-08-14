@@ -1,0 +1,20 @@
+.service-heading {
+    display: flex;
+    column-gap: .625em;
+    margin-bottom: 1em;
+}
+
+.service-heading__h1 {
+    margin-bottom: .75em;
+}
+
+.service-heading__sub {
+    margin-bottom: 3em;
+}
+.service-heading img {
+    height: 30px;
+    width: 30px;
+}
+.subhead {
+    font-weight: 600 !important;
+}

@@ -9,5 +9,6 @@
     .marquee {
        
         display: flex;
+        padding-block: 4em;
     }
 }

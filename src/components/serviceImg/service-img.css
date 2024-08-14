@@ -1,0 +1,27 @@
+#billboard {
+    border: 5px solid red;
+}
+.service_img {
+    display: grid;
+    justify-content: center;
+}
+.service_img_container {
+    /* border: 2px solid green; */
+    max-height: 300px;
+    min-height: 300px;
+    width: 80%;
+    justify-self: center;
+}
+
+.service_img_container > svg {
+    /* border: 3px solid black; */
+    display: block;
+    height: 300px;
+}
+
+.box {
+    stroke-dasharray: 3000;
+    stroke-dashoffset: 3000;    
+    
+}
+
