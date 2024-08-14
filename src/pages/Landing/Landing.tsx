@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from '../../components/button/Button'
 import Header from '../../components/header/Header'
 import Hero from '../../components/hero/Hero'
 import LogoMarquee from '../../components/logoMarquee/LogoMarquee'
@@ -9,6 +10,8 @@ import billboardIcon from '../../assets/icons/billboard.png'
 import signageIcon from '../../assets/icons/signage-3d.png'
 import brandingIcon from '../../assets/icons/branding.png'
 import printingIcon from '../../assets/icons/printing.png'
+import backgroundImg from '../../assets/img/colored-bg.svg'
+import priceQuoteReceipt from '../../assets/img/price-quotation.png'
 import './landing.css'
 
 type service = {
@@ -81,6 +84,21 @@ const Landing = () => {
                 ))}
               </div>
             </div>
+        </div>
+        <div className="banner-section">
+          <div className='banner-section_wrapper container'>
+            <p className='heading heading-sm banner-section_heading'>Get your free quote now!</p>
+            <p className='banner-section_txt'>Use our free quote generator to get a free quote.</p>
+            <p className='banner-section_txt'>No sign up required. No hidden fees.</p>
+            <Button btnType={'secondary'}>Generate</Button>
+          </div>
+          <div className='banner-img'>
+              <img src={backgroundImg} alt=""/>
+          </div>
+          <div className="quote-price_img">
+                <img src={priceQuoteReceipt} alt=""/>
+          </div>
+
         </div>
     </div>
   )
