@@ -6,51 +6,16 @@ import LogoMarquee from '../../components/logoMarquee/LogoMarquee'
 import ServiceGrid from '../../components/serviceGrid/ServiceGrid'
 import Service from '../../components/service/Service'
 import ServiceImg from '../../components/serviceImg/ServiceImg'
-import billboardIcon from '../../assets/icons/billboard.png'
-import signageIcon from '../../assets/icons/signage-3d.png'
-import brandingIcon from '../../assets/icons/branding.png'
-import printingIcon from '../../assets/icons/printing.png'
+import PortfolioItem from '../../components/portfolioItem/PortfolioItem'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFaceSmileWink } from '@fortawesome/free-solid-svg-icons/faFaceSmileWink'
+
 import backgroundImg from '../../assets/img/colored-bg.svg'
 import priceQuoteReceipt from '../../assets/img/price-quotation.png'
+
+import { services, portfolio } from './data'
 import './landing.css'
 
-type service = {
-  icon: string;
-  serviceType: string;
-  heading: string;
-  subHeadline: string;
-}
-const serv: service = {
-  icon: billboardIcon,
-  serviceType: 'Outdoor',
-  heading: 'Your Brand, Bigger and Brighter than ever',
-  subHeadline: 'Transform public spaces into vibrant marketing platforms for your brand.'
-}
-const services: service[] = [
-  {
-    icon: billboardIcon,
-    serviceType: 'Outdoor',
-    heading: 'Your Brand, Bigger and Brighter than ever',
-    subHeadline: 'Transform public spaces into vibrant marketing platforms for your brand.'
-  },
-  {
-    icon: signageIcon,
-    serviceType: 'Signage',
-    heading: 'Signs of Success',
-    subHeadline: 'Effective signage directs customers and boosts your business visibility, ensuring every opportunity is maximized.'
-  },
-  {
-    icon: brandingIcon,
-    serviceType: 'Branding',
-    heading: 'Brand Boldy, Brand Beautifully',
-    subHeadline: 'Build recognition, enhance trust and differentiate from competitors.'
-  },
-  {
-    icon: printingIcon,
-    serviceType: 'Printing',
-    heading: 'Print big, Print small, Print it all',
-    subHeadline: 'From vibrant large-format prints to detailed small-format jobs.'
-  }]
 
 const Landing = () => {
   return (
@@ -98,7 +63,28 @@ const Landing = () => {
           <div className="quote-price_img">
                 <img src={priceQuoteReceipt} alt=""/>
           </div>
-
+        </div>
+        
+        <div className='portfolio'>
+                <div className='container'>
+                  <div className='portfolio-intro'>
+                    <h2 className='heading heading-md'>From concepts to reality</h2>
+                    <p className='text text-md text_portfolio-intro'>Welcome to Unveil media, dive into our curated collection of projects showcasing our commitment to execellence and innovation. See how we have brought different brands to life across various mediums-- your brand could be our next success story <span className='emoji'><FontAwesomeIcon icon={faFaceSmileWink}/></span></p>
+                  </div>
+                  <div className='portfolio-pieces'>
+                    {portfolio.map(port => (
+                      <div key={port.company} className='portfolio-piece'>
+                        <PortfolioItem company={port.company} imgUrl={port.imgUrl} project={port.project} description={port.description}/>
+                      </div>
+                    ))}
+                  </div>
+                  <div className="portfolio-cta">
+                    <Button btnType={'primary'}>Contact Us</Button>
+                  </div>
+                </div>
+        </div>
+        <div className="client-reviews">
+          
         </div>
     </div>
   )
