@@ -7,11 +7,20 @@ import ServiceGrid from '../../components/serviceGrid/ServiceGrid'
 import Service from '../../components/service/Service'
 import ServiceImg from '../../components/serviceImg/ServiceImg'
 import PortfolioItem from '../../components/portfolioItem/PortfolioItem'
+import ClientReview from '../../components/clientReview/ClientReview'
+import Faq from '../../components/faq/Faq'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFaceSmileWink } from '@fortawesome/free-solid-svg-icons/faFaceSmileWink'
+import { faCopyright } from '@fortawesome/free-solid-svg-icons'
+
 
 import backgroundImg from '../../assets/img/colored-bg.svg'
+import faqSmall from '../../assets/img/faq-mobile.svg'
+import faqBig from '../../assets/img/faq-desktop.svg'
 import priceQuoteReceipt from '../../assets/img/price-quotation.png'
+import phone from '../../assets/img/phone.svg'
+import email from '../../assets/img/email.svg'
+import whatsapp from '../../assets/img/whatsapp.svg'
 
 import { services, portfolio } from './data'
 import './landing.css'
@@ -84,7 +93,97 @@ const Landing = () => {
                 </div>
         </div>
         <div className="client-reviews">
-          
+          <ClientReview/>
+        </div>
+        <div className="faq">
+          <div className="faq-header">
+              <div className="faq-mark">
+                   <picture className='qmark-pic'>
+                    <source
+                      srcSet={faqBig} 
+                      media='(min-width: 980px)'
+                    />
+                    <source 
+                      srcSet={faqSmall}
+                    />
+                    <img src={faqSmall} alt="" />
+                   </picture>
+              </div>
+            <div className="faq-intro container">
+              <h2 className='heading heading-md'>FAQ</h2>
+              <div className='faq-intro-text'>
+                <p className='text text-md'>Whether you're curious about our process, pricing or specific offerings, we've got you covered.</p>
+              </div>
+            </div>
+          </div>
+            <div className='faqs-container'>
+                <div className='container'>
+                  <div className='faq-container'>
+                    <p className='text text-lg'>Printing</p>
+                    <Faq/>
+                    <Faq/>
+                    <Faq/>
+                    <Faq/>
+                    <Faq/>
+                  </div>
+                  <div className='faq-container'>
+                    <p className='text text-lg'>Billboards</p>
+                    <Faq/>
+                    <Faq/>
+                    <Faq/>
+                    <Faq/>
+                    <Faq/>
+                  </div>
+                  <div className='faq-container'>
+                    <p className='text text-lg'>Branding</p>
+                    <Faq/>
+                    <Faq/>
+                    <Faq/>
+                    <Faq/>
+                    <Faq/>
+                  </div>
+                </div>
+            </div>
+            <div className='faq-cta'>
+                <div className='faq-cta-wrapper'>
+                    <p className='text text-lg'>Couldn't find the answer you were looking for?</p>
+                    <p className='text text-md'>Send us an email, message us on whatsapp or call us and we will get back to you as soon as we can.</p>
+                    <div className='faq-cta__cta__wrapper'>
+                      <div className='faq-cta__cta'>
+                        <img src={phone} alt="" />
+                        <p className='text text-md'>0700666900</p>
+                      </div>
+                      <div className='faq-cta__cta'>
+                        <img src={email} alt="" />
+                        <p className='text text-md'>hello@unveilmedia.com</p>
+                      </div>
+                      <div className='faq-cta__cta'>
+                        <img src={whatsapp} alt="" />
+                        <p className='text text-md'>0700666900</p>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div className="footer">
+          <div className="footer-wrapper container">
+            <div className="explore">
+              <h3 className='text text-lg footer-title'>Explore</h3>
+              <p className='text text-md'>Home</p>
+              <p className='text text-md'>Services</p>
+              <p className='text text-md'>Portfolio</p>
+              <p className='text text-md'>Quote Generator</p>
+            </div>
+            <div className="contacts">
+              <p className='text text-lg footer-title'>Contacts</p>
+              <p className='text text-md'>+2547600900900</p>
+              <p className='text text-md'>hello@unveilmedia.com</p>
+            </div>
+          </div>
+          <div className='copyright'>
+            <p><span><FontAwesomeIcon icon={faCopyright}/></span> 2024 Unveil Media.All rights Reserved.</p>
+            
+          </div>
         </div>
     </div>
   )
