@@ -21,7 +21,7 @@ const ServiceImg = () => {
 
       tl.current.to('.box', {
         strokeDashoffset: 0,
-        duration: 5
+        duration: .3
       }).
       to('.box', {
         scale: 1.2

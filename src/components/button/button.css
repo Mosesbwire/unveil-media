@@ -10,6 +10,7 @@
     display: flex;
     justify-items: center;
     align-items: center;
+    cursor: pointer;
     
 }
 .btn::before {
@@ -40,6 +41,7 @@
 .primary {
     background-color: var(--accent-navy-blue_light);
     color: #FFF;
+    transition: all 200ms ease-in;
 }
 
 .secondary  {
@@ -50,4 +52,14 @@
 .outline {
     border-color: var(--secondary-100);
     background-color: transparent;
+    transition: all 200ms ease-in;
+}
+
+.primary:hover {
+    background-color: var(--accent-violet);
+}
+
+.outline:hover {
+    background-color: var(--primary-dark);
+    color: #FFF;
 }

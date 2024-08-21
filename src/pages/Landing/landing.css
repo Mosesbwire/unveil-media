@@ -84,22 +84,14 @@
     position: relative;
     overflow: hidden;
     padding-bottom: 5em;
+    margin-top: 5em;
     
 }
 
-/* .portfolio::before{
-    content: '';
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 300px;
-    border-radius: 50%;
-    top: -15%;
-    background-color: var(--tertiary-100);
-} */
+
 
 .portfolio-intro {
-    /* padding-top: 150px; */
+   
     padding-bottom: 3em;
 }
 
@@ -125,6 +117,7 @@
     justify-content: center;
     padding-top: 2em;
 }
+
 
 .client-reviews {
     padding-block: 3.5em;
@@ -277,14 +270,18 @@
     .banner-section_heading, .banner-section_txt {
         background-color: transparent;
     }
-    /* .portfolio::before {
-        top: -30%;
-        height: 600px;
-    } */
     .portfolio-intro {
-        /* padding-top: 300px; */
+        padding-top: 3em;
+        margin-bottom: 4em;
     }
-
+    .portfolio-intro h2 {
+        text-align: center;
+    }
+    .portfolio-intro p {
+        width: 70%;
+        margin-inline: auto;
+        
+    }
     .portfolio-pieces {
         display: grid;
         grid-template-columns: 1fr 1fr;

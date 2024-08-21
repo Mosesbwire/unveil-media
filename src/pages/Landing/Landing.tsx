@@ -21,6 +21,7 @@ import priceQuoteReceipt from '../../assets/img/price-quotation.png'
 import phone from '../../assets/img/phone.svg'
 import email from '../../assets/img/email.svg'
 import whatsapp from '../../assets/img/whatsapp.svg'
+import semiCircle from '../../assets/img/semi-a.svg'
 
 import { services, portfolio } from './data'
 import './landing.css'
@@ -75,6 +76,7 @@ const Landing = () => {
         </div>
         
         <div className='portfolio'>
+                
                 <div className='container'>
                   <div className='portfolio-intro'>
                     <h2 className='heading heading-md'>From concepts to reality</h2>
@@ -91,6 +93,7 @@ const Landing = () => {
                     <Button btnType={'primary'}>Contact Us</Button>
                   </div>
                 </div>
+                
         </div>
         <div className="client-reviews">
           <ClientReview/>
@@ -181,7 +184,7 @@ const Landing = () => {
             </div>
           </div>
           <div className='copyright'>
-            <p><span><FontAwesomeIcon icon={faCopyright}/></span> 2024 Unveil Media.All rights Reserved.</p>
+            <p className='text text-sm'><span><FontAwesomeIcon icon={faCopyright}/></span> 2024 Unveil Media.All rights Reserved.</p>
             
           </div>
         </div>
