@@ -11,8 +11,8 @@ type serviceProps = React.ComponentProps<'div'> & {
 }
 const Service = ({children,icon, serviceType, heading, subHeadline,...rest}: serviceProps) => {
   return (
-    <div {...rest}>
-        <div>
+    <div {...rest} className='company-services'>
+        <div className=''>
             <div className="service-heading">
                 <img src={icon} alt="" />
                 <p className='text text-lg text-600'>{serviceType}</p>
@@ -21,7 +21,9 @@ const Service = ({children,icon, serviceType, heading, subHeadline,...rest}: ser
             <p className='text text-md service-heading__sub'>{subHeadline}</p>
             <Button btnType="primary">Get qoute</Button>
         </div>
-        {children}
+        <div className='service_img_wrapper'>
+          {children}
+        </div>
     </div>
   )
 }

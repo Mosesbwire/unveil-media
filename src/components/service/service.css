@@ -18,3 +18,22 @@
 .subhead {
     font-weight: 600 !important;
 }
+
+.service_img_wrapper {
+    margin-bottom: 2em;
+    margin-top: 3em;
+}
+
+@media only screen and (min-width: 61.25em){
+    .company-services {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .service_img_wrapper {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+}

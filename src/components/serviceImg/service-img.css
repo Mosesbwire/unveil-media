@@ -1,27 +1,47 @@
-#billboard {
-    border: 5px solid red;
-}
+
 .service_img {
     display: grid;
     justify-content: center;
 }
 .service_img_container {
-    /* border: 2px solid green; */
     max-height: 300px;
     min-height: 300px;
-    width: 80%;
+    min-width: 300px;
+    max-width: 300px;
+    justify-self: center;
+    display: grid
+}
+
+.img_wrapper {
+    margin-bottom: 2em;
+    height: 95%;
+    width: 95%;
+    position: relative;
     justify-self: center;
 }
 
-.service_img_container > svg {
-    /* border: 3px solid black; */
-    display: block;
-    height: 300px;
+.img_wrapper svg{ 
+    height: 100%;
+    width: 100%;
+    position: absolute;
+   
+}
+
+.img_wrapper img {
+    height: 98%;
+    width: 98%;
+    position: absolute;
+    opacity: 0;
 }
 
 .box {
-    stroke-dasharray: 3000;
-    stroke-dashoffset: 3000;    
+    stroke-dasharray: 4000;
+    stroke-dashoffset: 4000;    
     
+}
+
+.inner-box {
+    stroke-dasharray: 4000;
+    stroke-dashoffset: 4000;
 }
 
