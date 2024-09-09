@@ -31,7 +31,7 @@ const ServiceImg: React.FC<serviceImgProps> = ({SvgComponent, img}) => {
           markers: false,
         },
         defaults: {
-          duration: 2,
+          duration: 1.5,
           ease: 'power4.out'
         }
       })

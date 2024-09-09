@@ -6,20 +6,20 @@ import './client-review.css'
 
 const reviews = [
   {review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quisquam, saepe nobis qui voluptas natus excepturi blanditiis vero deserunt necessitatibus!',
-    reviewer: 'Kian Juma',
-    company: 'Kian Enterprises',
+    reviewer: 'Person A',
+    company: 'Lorem Enterprise',
     position: 'C.E.O',
     key: uuid()
   },
   {review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quisquam, saepe nobis qui voluptas natus excepturi blanditiis vero deserunt necessitatibus!',
-    reviewer: 'Sheila Amalemba',
-    company: 'Kian Enterprises',
+    reviewer: 'Owner Owner',
+    company: 'Lorem Inc.',
     position: 'Human Resource',
     key: uuid()
   },
   {review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quisquam, saepe nobis qui voluptas natus excepturi blanditiis vero deserunt necessitatibus!',
-    reviewer: 'Moses Bwire',
-    company: 'Kian Enterprises',
+    reviewer: 'Person A',
+    company: 'ABC Enterprises',
     position: 'C.F.O',
     key: uuid()
   },

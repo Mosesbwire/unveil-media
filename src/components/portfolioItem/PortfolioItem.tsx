@@ -1,7 +1,7 @@
 import React from 'react'
 import './portfolio-item.css'
-import tuskerImgM from '../../assets/img/tusker-billboard-mobile.jpg'
-import tuskerImgD from '../../assets/img/tusker-billboard-desktop.jpg'
+
+
 
 type portfolioItemProps = {
     company: string,
@@ -13,7 +13,7 @@ const PortfolioItem = ({company, imgUrl, project, description}:portfolioItemProp
   return (
     <div className='project-item'>
         <div className='project-img'>
-            <img src={tuskerImgD} alt="" />
+            <img src={imgUrl} alt="" />
             <p className='text text-md project-title'>{project}</p>
         </div>
         <div className='project-description'>

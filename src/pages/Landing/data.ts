@@ -4,6 +4,8 @@ import signageIcon from '../../assets/icons/signage-3d.png'
 import brandingIcon from '../../assets/icons/branding.png'
 import printingIcon from '../../assets/icons/printing.png'
 import portfolioImg from '../../assets/img/feather-banner.png'
+import portfolioBillBoard from '../../assets/img/tusker-billboard-desktop.jpg'
+import portfolioStreetPoleAd from '../../assets/img/street-pole-ngong2.jpg'
 import StreetPoleSvg from '../../components/serviceImg/svgComponents/StreetPoleSvg'
 import BrandingSvg from '../../components/serviceImg/svgComponents/BrandingSvg'
 import SignageSvg from '../../components/serviceImg/svgComponents/SignageSvg'
@@ -96,25 +98,25 @@ type portfolioItem = {
 export const portfolio: portfolioItem[] = [
     {
         company: 'magnus bull venture',
-        imgUrl: portfolioImg,
+        imgUrl: portfolioBillBoard,
         project: 'billboard',
         description: 'For this project we helped in  the concept generation of the 3D bottle idea, carried out the printing of all artwork. The billboard has night illumination to ensure it’s maximum visibility even after dark.'
     },
     {
       company: 'emabassy church',
-      imgUrl: portfolioImg,
+      imgUrl: portfolioStreetPoleAd,
       project: 'street poles',
       description: 'We provided the complete outdoor advertising solution from printing the artwork to renting out the street poles. Located on the main road leading to Ngong town offering maximum visibility to pedestrians and drivers.'
   },
   {
     company: 'diani clinic',
-    imgUrl: portfolioImg,
+    imgUrl: brandedClinic,
     project: 'branding',
     description: 'Enhanced visibility and professional image of the clinic. The window graphics not only improve the aesthetics but also provide information to the public.'
   },
   {
         company: 'swahili beach',
-        imgUrl: portfolioImg,
+        imgUrl: beachHotelSign,
         project: 'signage',
         description: 'We crafted stunning outdoor acrylic signs for the client, providing a vibrant and professional look that perfectly complements the venue\'s aesthetic. Acrylic signs are excellent for a sophisticated look. They are 100% customizable and one of the best ways to showcase your logo or brand.'
   }
