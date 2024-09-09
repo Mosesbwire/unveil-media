@@ -1,5 +1,5 @@
-import React, {useState, useRef} from 'react'
-import Button from '../button/Button'
+import {useState, useRef} from 'react'
+
 import Navigation from '../navigation/Navigation'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'

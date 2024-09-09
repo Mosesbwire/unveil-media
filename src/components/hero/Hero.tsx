@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Button from '../button/Button'
 import hero_img from '../../assets/img/planet-services.svg'
 import './hero.css'

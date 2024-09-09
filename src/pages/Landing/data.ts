@@ -3,7 +3,7 @@ import billboardIcon from '../../assets/icons/billboard.png'
 import signageIcon from '../../assets/icons/signage-3d.png'
 import brandingIcon from '../../assets/icons/branding.png'
 import printingIcon from '../../assets/icons/printing.png'
-import portfolioImg from '../../assets/img/feather-banner.png'
+
 import portfolioBillBoard from '../../assets/img/tusker-billboard-desktop.jpg'
 import portfolioStreetPoleAd from '../../assets/img/street-pole-ngong2.jpg'
 import StreetPoleSvg from '../../components/serviceImg/svgComponents/StreetPoleSvg'

@@ -1,4 +1,4 @@
-import React, {useEffect, useRef, useState} from 'react'
+import {useEffect, useRef, useState} from 'react'
 import {v4 as uuid } from 'uuid'
 import Review from './Review'
 import './client-review.css'
@@ -35,6 +35,7 @@ const ClientReview = () => {
   const [scrollDist, setScrollDist] = useState(0)
   const sliderRef = useRef<HTMLDivElement>(null)
   const [scrollData, setScrollData] = useState(reviews)
+  console.log(scrollDist)
   useEffect(()=>{
     if (window.window.innerWidth < 1280){
 

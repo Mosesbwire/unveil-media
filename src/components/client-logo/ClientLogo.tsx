@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './client-logo.css'
 
 type imgLogoUrl = {

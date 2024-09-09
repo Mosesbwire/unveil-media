@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Button from '../../components/button/Button'
 import Header from '../../components/header/Header'
 import Hero from '../../components/hero/Hero'
@@ -21,11 +21,10 @@ import priceQuoteReceipt from '../../assets/img/price-quotation.png'
 import phone from '../../assets/img/phone.svg'
 import email from '../../assets/img/email.svg'
 import whatsapp from '../../assets/img/whatsapp.svg'
-import semiCircle from '../../assets/img/semi-a.svg'
+
 
 import { services, portfolio } from './data'
 import './landing.css'
-import BrandingSvg from '../../components/serviceImg/svgComponents/BrandingSvg'
 
 
 const Landing = () => {

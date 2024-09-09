@@ -1,4 +1,4 @@
-import React from 'react'
+
 import ClientLogo from '../client-logo/ClientLogo'
 import magnus from '../../assets/logos/magnus-logo.png'
 import kenswedOrg from '../../assets/logos/kenswed-org-logo.png'

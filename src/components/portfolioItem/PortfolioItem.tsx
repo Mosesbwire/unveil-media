@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './portfolio-item.css'
 
 
@@ -10,6 +10,7 @@ type portfolioItemProps = {
     description: string
 }
 const PortfolioItem = ({company, imgUrl, project, description}:portfolioItemProps) => {
+  console.log(company)
   return (
     <div className='project-item'>
         <div className='project-img'>
