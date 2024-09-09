@@ -31,7 +31,9 @@ const Navigation = ({children, toggleMenuHandler, ...rest}:navProps) => {
                         scrollTo: {y: `#${section}`},
                         ease: 'power1',
                     })
-                    toggleMenuHandler()
+                    const matchMedia = window.matchMedia("(max-width: 60em)").matches
+                    if (matchMedia) toggleMenuHandler()
+                    
                 })
             }
         })
