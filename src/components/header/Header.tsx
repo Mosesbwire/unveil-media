@@ -8,17 +8,15 @@ import './header.css'
 
 
 const Header = () => {
-  const [isOpen, openMenu] = useState<boolean>(false)
+  const [isOpen, openMenu] = useState<boolean>(true)
   const menuRef = useRef<HTMLDivElement>(null)
 
   const openMenuHandler = () => {
     if (menuRef.current){
-      if (isOpen) {
-        menuRef.current.style.left = '100%'
-      } else {
-        menuRef.current.style.left = '30%'
-      }
+      isOpen ? menuRef.current.style.left = '100%' : menuRef.current.style.left = '30%'
+
       openMenu(!isOpen)
+      
     }
   }
   

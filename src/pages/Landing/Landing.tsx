@@ -31,14 +31,14 @@ import BrandingSvg from '../../components/serviceImg/svgComponents/BrandingSvg'
 const Landing = () => {
   return (
     <div>
-        <div className="hero-section">
+        <div className="hero-section" id='home'>
           <Header/>
           <Hero/>
         </div>
         <div className='container logo-marquee-section'>
           <LogoMarquee/>
         </div>
-        <div className='service-section'>
+        <div className='service-section' id='service'>
             <div className="service-section-wrapper container">
               <div className='service-section-intro'>
                 <div className='service-section-heading'>
@@ -76,7 +76,7 @@ const Landing = () => {
           </div>
         </div>
         
-        <div className='portfolio'>
+        <div className='portfolio' id='portfolio'>
                 
                 <div className='container'>
                   <div className='portfolio-intro'>
@@ -148,7 +148,7 @@ const Landing = () => {
                   </div>
                 </div>
             </div>
-            <div className='faq-cta'>
+            <div className='faq-cta' id='contact'>
                 <div className='faq-cta-wrapper'>
                     <p className='text text-lg'>Couldn't find the answer you were looking for?</p>
                     <p className='text text-md'>Send us an email, message us on whatsapp or call us and we will get back to you as soon as we can.</p>
