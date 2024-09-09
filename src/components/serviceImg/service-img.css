@@ -8,8 +8,9 @@
     min-height: 300px;
     min-width: 300px;
     max-width: 300px;
+    display: grid;
     justify-self: center;
-    display: grid
+
 }
 
 .img_wrapper {
@@ -24,7 +25,7 @@
     height: 100%;
     width: 100%;
     position: absolute;
-   
+    object-fit: cover;
 }
 
 .img_wrapper img {
@@ -34,7 +35,7 @@
     opacity: 0;
 }
 
-.box {
+/* .box {
     stroke-dasharray: 4000;
     stroke-dashoffset: 4000;    
     
@@ -43,5 +44,16 @@
 .inner-box {
     stroke-dasharray: 4000;
     stroke-dashoffset: 4000;
+} */
+
+@media only screen and (min-width: 61.25em){
+    .service_img_container {
+        max-height: 400px;
+        min-height: 400px;
+        min-width: 400px;
+        max-width: 400px;
+        display: grid;
+        justify-self: center;
+    }
 }
 

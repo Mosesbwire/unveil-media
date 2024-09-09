@@ -1,0 +1,11 @@
+
+.border {
+    stroke-dasharray: 4000;
+    stroke-dashoffset: 4000;    
+    
+}
+
+.outline {
+   stroke-dasharray: 4200;
+    stroke-dashoffset: 4200;
+}

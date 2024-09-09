@@ -1,0 +1,28 @@
+<svg width="1926" height="1847" viewBox="0 0 1926 1847" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="street-light-svg">
+<g id="outline">
+<path d="M1160 1340.5L1166.5 1843L1040.5 1843.5L1048 1338H876V652.5H1061L1067 263H1148L1153.5 652.5H1339.5L1334.5 1340.5H1160Z" stroke="url(#paint0_linear_742_531)" stroke-width="5"/>
+<path d="M896.5 293.5C1088.5 302.5 1031 409 1042 488H1060.5C1055 352.5 1110.5 287 849 266L437.5 263V237.5L416 225H230.5L215 237.5V284H465.5L896.5 293.5Z" stroke="url(#paint1_linear_742_531)" stroke-width="5"/>
+</g>
+<path id="border" d="M3 923V3H1923.5V923" stroke="url(#paint2_linear_742_531)" stroke-width="5"/>
+<path id="border_2" d="M3 923V1843H1923L1923.5 923" stroke="url(#paint3_linear_742_531)" stroke-width="5"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_742_531" x1="777.25" y1="225" x2="777.25" y2="1843.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E550A7"/>
+<stop offset="1" stop-color="#F7BB18"/>
+</linearGradient>
+<linearGradient id="paint1_linear_742_531" x1="777.25" y1="225" x2="777.25" y2="1843.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E550A7"/>
+<stop offset="1" stop-color="#F7BB18"/>
+</linearGradient>
+<linearGradient id="paint2_linear_742_531" x1="963.25" y1="3" x2="963.25" y2="923" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E550A7"/>
+<stop offset="1" stop-color="#F7BB18"/>
+</linearGradient>
+<linearGradient id="paint3_linear_742_531" x1="963.25" y1="923" x2="963.25" y2="1843" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E550A7"/>
+<stop offset="1" stop-color="#F7BB18"/>
+</linearGradient>
+</defs>
+</svg>

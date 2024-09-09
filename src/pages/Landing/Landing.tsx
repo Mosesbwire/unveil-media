@@ -25,6 +25,7 @@ import semiCircle from '../../assets/img/semi-a.svg'
 
 import { services, portfolio } from './data'
 import './landing.css'
+import BrandingSvg from '../../components/serviceImg/svgComponents/BrandingSvg'
 
 
 const Landing = () => {
@@ -50,13 +51,13 @@ const Landing = () => {
                 </div>
               </div>
               <div className='services'>
-                {services.map(serv => (
-                  <div key={serv.serviceType}>
-                    <Service icon={serv.icon} serviceType={serv.serviceType} heading={serv.heading} subHeadline={serv.subHeadline}>
-                      <ServiceImg/>
-                    </Service>
-                  </div>
-                ))}
+                  {services.map(serv => (
+                    <div key={serv.serviceType} className={`lefties`}>
+                      <Service icon={serv.icon} serviceType={serv.serviceType} heading={serv.heading} subHeadline={serv.subHeadline}>
+                        <ServiceImg SvgComponent={serv.svgComponent} img={serv.img}/>
+                      </Service>
+                    </div>
+                  ))}
               </div>
             </div>
         </div>
